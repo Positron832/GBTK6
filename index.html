@@ -6,10 +6,14 @@
   <meta name="copyright" content="Positron832">
  </head>
  <body>
-  <p>Try to click the "back" arrow at the top left! Haha you're stuck!</p> <button type="button" onclick="open()">More info</button>
+  <p>Try to click the "back" arrow at the top left! Haha you're stuck!</p>
+  <button type="button" onclick="open()">More info</button> <button type="button" onclick="close()">Close window</button>
   <script>
    function open() {
     window.open("info.html", "_blank", "width=300,height=300");
+   }
+   function close() {
+    window.close();
    }
    window.location = "lndex.html";
   </script>
